@@ -1,21 +1,22 @@
 const express = require("express");
 const cors = require("cors");
-const fs = require("fs").promises; // Use promises for async file ops
+const fs = require("fs").promises; // Async file operations
 require("dotenv").config();
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-const DATA_FILE = "./data.json";
+// Set DATA_FILE based on environment (Render uses /data, local uses ./)
+const DATA_FILE = process.env.RENDER ? "/data/data.json" : "./data.json";
 
-// Load initial data or create empty structure
+// Load data from file, or return empty structure if file doesn’t exist
 async function loadData() {
   try {
     const fileData = await fs.readFile(DATA_FILE, "utf8");
     return JSON.parse(fileData);
   } catch (err) {
-    // If file doesn’t exist, start with empty data
+    // If file doesn’t exist or is invalid, start with empty data
     return { users: [], parts: [] };
   }
 }
