@@ -1,14 +1,16 @@
 const express = require("express");
 const cors = require("cors");
-const fs = require("fs").promises; // Async file operations
+const fs = require("fs").promises;
 require("dotenv").config();
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Set DATA_FILE based on environment (Render uses /data, local uses ./)
-const DATA_FILE = process.env.RENDER ? "/data/data.json" : "./data.json";
+// Use Railway volume for persistence, fallback to local file
+const DATA_FILE = process.env.RAILWAY_VOLUME_MOUNT_PATH
+  ? `${process.env.RAILWAY_VOLUME_MOUNT_PATH}/data.json`
+  : "./data.json";
 
 // Load data from file, or return empty structure if file doesn’t exist
 async function loadData() {
@@ -26,7 +28,7 @@ async function saveData(data) {
   await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2), "utf8");
 }
 
-// GET /data: Read the JSON data
+// GET /data: Serve the JSON data
 app.get("/data", async (req, res) => {
   try {
     const data = await loadData();
@@ -39,9 +41,8 @@ app.get("/data", async (req, res) => {
 
 // POST /data: Add or edit data
 app.post("/data", async (req, res) => {
-  const newData = req.body;
-
   try {
+    const newData = req.body;
     const data = await loadData();
 
     if (newData.birthdate) {
