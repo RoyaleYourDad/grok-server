@@ -60,7 +60,8 @@
           "name": "telegram link:",
           "value": "tg://resolve?domain=NEXUSPCFORTHEGAME&post=5474"
         }
-      ]
+      ],
+      "isPublic": true
     },
     {
       "id": "1743156089959",
@@ -125,7 +126,8 @@
           "name": "Telegram link:",
           "value": "tg://resolve?domain=NEXUSPCFORTHEGAME&post=5473"
         }
-      ]
+      ],
+      "isPublic": true
     },
     {
       "id": "1743156495245",
@@ -191,7 +193,8 @@
           "name": "Telegram link:",
           "value": "tg://resolve?domain=NEXUSPCFORTHEGAME&post=5472"
         }
-      ]
+      ],
+      "isPublic": true
     },
     {
       "id": "1743156699677",
