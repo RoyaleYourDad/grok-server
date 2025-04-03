@@ -34,7 +34,7 @@ app.get("/data", async (req, res) => {
     const data = await loadData();
     res.json(data);
   } catch (err) {
-    console.error(err);
+    console.error(`[${new Date().toISOString()}] Error reading data: ${err.message}`);
     res.status(500).json({ error: "Error reading data" });
   }
 });
@@ -68,10 +68,26 @@ app.post("/data", async (req, res) => {
     await saveData(data);
     res.json({ message: "Data updated successfully", data });
   } catch (err) {
-    console.error(err);
+    console.error(`[${new Date().toISOString()}] Error updating data: ${err.message}`);
     res.status(500).json({ error: "Error updating data" });
   }
 });
+
+app.put("/data", async (req, res) => {
+  try {
+    const newData = req.body;
+    // Validate that the data has the expected structure
+    if (!newData.users || !Array.isArray(newData.users) || !newData.parts || !Array.isArray(newData.parts)) {
+      return res.status(400).json({ error: "Invalid data format: must include users and parts arrays" });
+    }
+    await saveData(newData);
+    res.json({ message: "Data replaced successfully", data: newData });
+  } catch (err) {
+    console.error(`[${new Date().toISOString()}] Error replacing data: ${err.message}`);
+    res.status(500).json({ error: "Error replacing data" });
+  }
+});
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

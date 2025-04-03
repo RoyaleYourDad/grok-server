@@ -15,7 +15,8 @@
       "socket": null,
       "price": 50,
       "hashtags": [
-        "#mouse. #hyperx",
+        "#mouse",
+        "#hyperx",
         "#gamingmouse"
       ],
       "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743152452/ev4y9aqcwviljt8lkxip.jpg",
@@ -53,7 +54,7 @@
         },
         {
           "name": "Battery Life",
-          "value": "Up to 90 hours on the pro version"
+          "value": "Up to 90 hours"
         },
         {
           "name": "telegram link:",
@@ -202,7 +203,8 @@
       "hashtags": [
         "#mouse",
         "#RAZER",
-        "#RAZERDEATHADDER"
+        "#RAZERDEATHADDER",
+        "#gamingmouse"
       ],
       "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743156696/jriipiljlgr6qsxyk8fo.jpg",
       "previews": [
@@ -320,7 +322,8 @@
       "price": 27,
       "hashtags": [
         "#keyboard",
-        "#mechanical"
+        "#mechanical",
+        "#full-size"
       ],
       "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743160643/hpeop5m0fiivdwsalyd7.jpg",
       "previews": [
@@ -383,7 +386,8 @@
       "hashtags": [
         "#monitor",
         "#cheap",
-        "#$250"
+        "#250HZ",
+        "#32\""
       ],
       "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743486688/nuubmiqk5slvpiv4oesu.jpg",
       "previews": [
@@ -441,6 +445,298 @@
         {
           "name": "Telegram link:",
           "value": "tg://resolve?domain=xtechuzAbusaxiy&post=5921"
+        }
+      ]
+    },
+    {
+      "id": "1743598462395",
+      "userId": "1743148673789",
+      "name": "E-YOOSO Z-94 Mechanical red Switch 94",
+      "type": "other",
+      "socket": null,
+      "price": 26,
+      "hashtags": [
+        "#keyboard",
+        "#mechanical",
+        "#full-size"
+      ],
+      "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743598459/grhvrfobvhwcy5lcbida.jpg",
+      "previews": [
+        "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743598461/kkulckcy1srijygmyktz.jpg"
+      ],
+      "extraDetails": [
+        {
+          "name": "Type",
+          "value": "Mechanical Keyboard"
+        },
+        {
+          "name": "Layout",
+          "value": "94-Key Compact"
+        },
+        {
+          "name": "Hot-swappable",
+          "value": "Yes"
+        },
+        {
+          "name": "Keycaps",
+          "value": "PBT/ABS"
+        },
+        {
+          "name": "Anti-ghosting",
+          "value": "Full Key"
+        },
+        {
+          "name": "Design",
+          "value": "Standard"
+        },
+        {
+          "name": "Connectivity",
+          "value": "USB (wired)"
+        },
+        {
+          "name": "Telegram link:",
+          "value": "tg://resolve?domain=NEXUSPCFORTHEGAME&post=5466"
+        }
+      ]
+    },
+    {
+      "id": "1743598855023",
+      "userId": "1743148673789",
+      "name": "E-YOOSO Z-87 Mechanical red Switch 94",
+      "type": "other",
+      "socket": null,
+      "price": 26,
+      "hashtags": [
+        "#keyboard",
+        "#mechanical"
+      ],
+      "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743598852/teumoapqxyht9jdfupn0.jpg",
+      "previews": [
+        "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743598854/cahlz0bz3ship9m6mhyg.jpg"
+      ],
+      "extraDetails": [
+        {
+          "name": "Type",
+          "value": "Mechanical Keyboard"
+        },
+        {
+          "name": "Layout",
+          "value": "94-Key Compact"
+        },
+        {
+          "name": "Switches",
+          "value": "OUTEMU Red"
+        },
+        {
+          "name": "Hot-swappable",
+          "value": "Yes"
+        },
+        {
+          "name": "Keycaps",
+          "value": "PBT/ABS"
+        },
+        {
+          "name": "Anti-ghosting",
+          "value": "Full Key"
+        },
+        {
+          "name": "Connectivity",
+          "value": "USB (wired)"
+        },
+        {
+          "name": "Design",
+          "value": "Standard"
+        },
+        {
+          "name": "Telegram link:",
+          "value": "tg://resolve?domain=NEXUSPCFORTHEGAME&post=5465"
+        }
+      ]
+    },
+    {
+      "id": "1743599085203",
+      "userId": "1743148673789",
+      "name": "E-YOOSO Z-87 Mechanical blue Switch 94",
+      "type": "other",
+      "socket": null,
+      "price": 26,
+      "hashtags": [
+        "#keyboard",
+        "#mechanical"
+      ],
+      "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743599082/lhegwmhwzjgknggkgofl.jpg",
+      "previews": [
+        "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743599084/h5kdlvd76soj8cvk8qlc.jpg"
+      ],
+      "extraDetails": [
+        {
+          "name": "Type",
+          "value": "Mechanical "
+        },
+        {
+          "name": "Layout",
+          "value": "87-Key"
+        },
+        {
+          "name": "Switches",
+          "value": "OUTEMU Blue"
+        },
+        {
+          "name": "Keycaps",
+          "value": "ABS "
+        },
+        {
+          "name": "Anti-ghosting",
+          "value": "Full"
+        },
+        {
+          "name": "Connectivity",
+          "value": "USB (wired)"
+        },
+        {
+          "name": "Telegram link",
+          "value": "tg://resolve?domain=NEXUSPCFORTHEGAME&post=5463"
+        }
+      ]
+    },
+    {
+      "id": "1743599358508",
+      "userId": "1743148673789",
+      "name": "MSI 27 G274QPF-E2 2K 180Hz",
+      "type": "other",
+      "socket": null,
+      "price": 240,
+      "hashtags": [
+        "#monitor",
+        "#2K",
+        "#27\""
+      ],
+      "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743599613/hefi3cmhbggbkvr6bboq.jpg",
+      "previews": [
+        "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743599615/iknuehsxvcbihdzxdh4x.jpg",
+        "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743599617/azhevjpdsmhz0hpy5xcz.jpg"
+      ],
+      "extraDetails": [
+        {
+          "name": "Screen Size",
+          "value": "27 inches"
+        },
+        {
+          "name": "Resolution",
+          "value": "2K (2560 x 1440)"
+        },
+        {
+          "name": "Refresh Rate",
+          "value": "180Hz"
+        },
+        {
+          "name": "Panel Type",
+          "value": "IPS "
+        },
+        {
+          "name": "Response Time",
+          "value": "1ms "
+        },
+        {
+          "name": "Aspect Ratio",
+          "value": "16:9"
+        },
+        {
+          "name": "Viewing Angles",
+          "value": "178° (H) / 178° (V)"
+        },
+        {
+          "name": "Brightness ",
+          "value": "300 nits"
+        },
+        {
+          "name": "Contrast Ratio",
+          "value": "1000:1"
+        },
+        {
+          "name": "Color ",
+          "value": "Gamut"
+        },
+        {
+          "name": "Display Colors",
+          "value": "1.07 Billion"
+        },
+        {
+          "name": "Connectivity",
+          "value": "DisplayPort 1.4a, HDMI 2.0b"
+        },
+        {
+          "name": "Adaptive Sync",
+          "value": "AMD FreeSync Premium"
+        },
+        {
+          "name": "Telegram Link:",
+          "value": "tg://resolve?domain=NEXUSPCFORTHEGAME&post=5459"
+        }
+      ]
+    },
+    {
+      "id": "1743599898941",
+      "userId": "1743148673789",
+      "name": "MSI MAG 274QF 2K 240Hz",
+      "type": "other",
+      "socket": null,
+      "price": 220,
+      "hashtags": [
+        "#monitor",
+        "#2K",
+        "#27\"",
+        "#cheap"
+      ],
+      "thumbnail": "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743599893/eiym6hubjrwfhetufuuh.jpg",
+      "previews": [
+        "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743599895/wdvp3giqfe9ih0lauqyz.jpg",
+        "https://res.cloudinary.com/da3lnxm5o/image/upload/v1743599898/bws73i89sb2liutyyq6s.jpg"
+      ],
+      "extraDetails": [
+        {
+          "name": "Screen Size",
+          "value": "27 inches"
+        },
+        {
+          "name": "Resolution",
+          "value": "2K (2560 x 1440)"
+        },
+        {
+          "name": "Refresh Rate",
+          "value": "240Hz"
+        },
+        {
+          "name": "Panel Type",
+          "value": "IPS "
+        },
+        {
+          "name": "Response Time",
+          "value": "0.5 ms"
+        },
+        {
+          "name": "Aspect Ratio",
+          "value": "16:9"
+        },
+        {
+          "name": "Viewing Angles",
+          "value": "178° (H) / 178° (V)"
+        },
+        {
+          "name": "Connectivity",
+          "value": "DisplayPort 1.4a, HDMI 2.0b, USB Type-C, USB Hub"
+        },
+        {
+          "name": "Adaptive Sync",
+          "value": "AMD FreeSync Premium"
+        },
+        {
+          "name": "Display Colors",
+          "value": "1.07 Billion"
+        },
+        {
+          "name": "Telegram link:",
+          "value": "tg://resolve?domain=NEXUSPCFORTHEGAME&post=5457"
         }
       ]
     }
